@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]"
+	guice-stage="DEVELOPMENT">
+	<test thread-count="5" name="Default test(failed)">
+		<classes>
+			<class
+				name="com.evs.vtiger.testcases.ValidateLeadsFunctionality">
+				<methods>
+					<include name="vt002validateCreateLeads" />
+					<include name="beforTestcase" />
+					<include name="vt003validateDeleteLead" />
+					<include name="beforeTestCaseClass" />
+					<include name="afterTestCase" />
+					<include name="vt001validateLogin" />
+					<include name="afterTestCaseClass" />
+				</methods>
+			</class> <!-- com.evs.vtiger.testcases.ValidateLeadsFunctionality -->
+		</classes>
+	</test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
