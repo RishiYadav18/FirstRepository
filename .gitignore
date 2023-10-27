@@ -1,2 +1,3 @@
 /target/
 /test-output/
+target/surefire-reports/emailable-report.html
